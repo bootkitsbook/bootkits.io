@@ -16,8 +16,6 @@ pygmentsUseClasses = true
 [params]
     author = "Rootkits and Bootkits"
     description = "Rootkits and Bootkits official book website"
-    keywords = "blog,developer,personal"
-    info = "Reversing Modern Malware and Next Generation Threats"
     avatarurl = "images/avatar.jpg"
 
     hideCredits = false
@@ -59,14 +57,12 @@ pygmentsUseClasses = true
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Yusuke Ishimi"
+        title = "Rootkits and Bootkits Book"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Yusuke Ishimi"
-            info = "WEB AND APPS ENGINEER"
-            description = "Yusuke Ishimi's personal website"
-            keywords = "blog,developer,personal"
+            author = "Rootkits and Bootkits"
+            info = "Reversing Modern Malware and Next Generation Threats"
 
         [languages.en.menu] # It is possible to change the menu too.
 
@@ -81,9 +77,9 @@ pygmentsUseClasses = true
                 url = "Bibliography"
 
             [[languages.en.menu.main]]
-                name = "Additonal Content"
+                name = "Blog"
                 weight = 3
-                url = "stuff"
+                url = "blog"
             [[languages.en.menu.main]]
                 name = "Feedback"
                 weight = 5
