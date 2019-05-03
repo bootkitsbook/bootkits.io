@@ -1,4 +1,0 @@
-baseURL = "https://matrosov.netlify.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "hugo-coder-portfolio"
