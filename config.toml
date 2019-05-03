@@ -23,7 +23,7 @@ pygmentsUseClasses = true
 
     snsShare = true
 
-    thumbnail = "images/tn.png"
+    thumbnail = "images/avatar.jpg"
 
     # Custom CSS
     custom_css = []
@@ -57,7 +57,7 @@ pygmentsUseClasses = true
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Rootkits and Bootkits Book"
+        title = "by Alex Matrosov, Eugene Rodionov, and Sergey Bratus"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
@@ -74,12 +74,12 @@ pygmentsUseClasses = true
             [[languages.en.menu.main]]
                 name = "Bibliography"
                 weight = 2.0
-                url = "Bibliography"
+                url = "https://github.com/bootkitsbook/bibliography"
 
             [[languages.en.menu.main]]
                 name = "Blog"
                 weight = 3
-                url = "blog"
+                url = "https://medium.com/@matrosov"
             [[languages.en.menu.main]]
                 name = "Feedback"
                 weight = 5
