@@ -1,10 +1,10 @@
 +++
-title = "Contact"
-slug = "contact"
-thumbnail = "images/tn.png"
-description = "contact"
+title = "Feedback"
+slug = "feedback"
+thumbnail = "images/favicon.png"
+description = "feedback"
 +++
 
-## Want Contact?
+## Want sent us your feedback?
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/naro143/hugo-coder-portfolio/issues/new) or [ask me on Twitter](https://twitter.com/naro143).
+Stay tuned!
