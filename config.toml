@@ -15,7 +15,7 @@ pygmentsUseClasses = true
 
 [params]
     author = "by Alex Matrosov, Eugene Rodionov, and Sergey Bratus"
-    description = "Rootkits and Bootkits official book website"
+    description = "[Rootkits and Bootkits] official book website"
     avatarurl = "images/avatar.jpg"
 
     hideCredits = false
@@ -57,12 +57,12 @@ pygmentsUseClasses = true
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Rootkits and Bootkits official book website"
+        title = "[Rootkits and Bootkits] official book website"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "by Alex Matrosov, Eugene Rodionov, and Sergey Bratus"
-            info = "Reversing Modern Malware and Next Generation Threats"
+            author = "[Reversing Modern Malware and Next Generation Threats]"
+            info = "by Alex Matrosov, Eugene Rodionov, and Sergey Bratus"
 
         [languages.en.menu] # It is possible to change the menu too.
 
