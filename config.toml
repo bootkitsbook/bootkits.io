@@ -1,5 +1,5 @@
 baseurl = "https://matrosov.netlify.com"
-title = "Yusuke Ishimi"
+title = "Rootkits and Bootkits"
 
 theme = "coder-portfolio"
 
@@ -12,17 +12,13 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
-disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Yusuke Ishimi"
-    description = "Yusuke Ishimi's personal website"
+    author = "Rootkits and Bootkits"
+    description = "Rootkits and Bootkits official book website"
     keywords = "blog,developer,personal"
-    info = "WEB AND APPS ENGINEER"
+    info = "Reversing Modern Malware and Next Generation Threats"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
-    fixedbarContent = "Do you want to know me more private?→"
-    fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
     hideCredits = false
     hideCopyright = false
@@ -45,15 +41,19 @@ disqusShortname = "yourdiscussshortname"
 [[params.social]]
     name = "Github"
     weight = 1
-    url = "https://github.com/naro143/"
+    url = "https://github.com/bootkitsbook/"
 [[params.social]]
     name = "Twitter"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://twitter.com/rehints"
 [[params.social]]
-    name = "LinkedIn"
+    name = "Publisher"
     weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://nostarch.com/rootkits"
+[[params.social]]
+    name = "Amazon"
+    weight = 3
+    url = "https://www.amazon.com/Rootkits-Bootkits-Reversing-Malware-Generation/dp/1593277164"    
 
 [languages]
     [languages.en]
@@ -76,45 +76,15 @@ disqusShortname = "yourdiscussshortname"
                 url = "about"
 
             [[languages.en.menu.main]]
-                name = "Blog"
+                name = "Bibliography"
                 weight = 2.0
-                url = "posts"
+                url = "Bibliography"
 
             [[languages.en.menu.main]]
-                name = "Projects"
+                name = "Additonal Content"
                 weight = 3
-                url = "projects"
+                url = "stuff"
             [[languages.en.menu.main]]
-                name = "Contact me"
+                name = "Feedback"
                 weight = 5
-                url = "contact"
-
-
-    [languages.ja]
-        languagecode = "ja"
-        languagename = "Japanese"
-        title = "石見 優丞"
-
-        [languages.ja.params]
-            author = "石見 優丞"
-            description = "石見のサイト"
-            keywords = "blog,developer,strona domowa"
-            info = "WEBとアプリのエンジニア"
-
-        [languages.ja.menu]
-            [[languages.ja.menu.main]]
-                name = "テーマについて"
-                weight = 1.0
-                url = "ja/about"
-            [[languages.ja.menu.main]]
-                name = "ブログ"
-                weight = 2.0
-                url = "ja/posts"
-            [[languages.ja.menu.main]]
-                name = "プロジェクト"
-                weight = 3
-                url = "ja/projects"
-            [[languages.ja.menu.main]]
-                name = "お問い合わせ"
-                weight = 5
-                url = "ja/contact"
+                url = "feedback"
